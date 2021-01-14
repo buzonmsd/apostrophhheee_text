@@ -1,0 +1,104 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    cursor: url("https://downloads.totallyfreecursors.com/cursor_files/dolphin1.ani"), url("https://downloads.totallyfreecursors.com/thumbnails/dolphin1.gif"), auto;
+    -webkit-font-smoothing: antialiased;
+    -webkit-user-select: none;
+    -moz-user-select: -moz-none;
+    user-select: none;
+    
+  }
+
+  body {
+    background-image: url("https://d2w9rnfcy7mm78.cloudfront.net/10157433/large_2f07dea5f7674a3ad26ed9e94e0293d3.png?1610124948?bc=0");
+    background-size: contain;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height: 100%;
+    display: block;
+    margin: 0 auto
+
+  /*
+    width: 100wh;
+    height: 90vh;
+    color: #fff;
+    background: linear-gradient(120deg, #FDFEE3, #FEE3E3, #E3FEFB, #F1E3FE);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+    */
+  }
+  
+  
+  body::-webkit-scrollbar {
+    display: none;
+  }
+  
+  img {
+    display: block;
+  }
+  
+  a, a:link, a:visited, a:active {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  p {
+    
+
+    padding: 0%;
+    margin-left: 10px;
+    /* font-family: "schola", sans-serif; */
+    font-family: 'Xanh Mono', monospace;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.3vw;
+    color: black;
+    line-height: 1.35;
+    text-align: left;
+  }
+  
+
+
+  .text {
+    display: none;
+    width: 90vw;
+    margin-left: 50px;
+    margin-right: auto;
+    text-align: left;
+  }
+  
+  .hover {
+    pointer-events: none;
+    transform: translate(48px, -2px);
+    position: absolute;
+  }
+  
+  .pointer {
+    transform: translate(26px, -2px);
+  }
+
+  .meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
+    max-width: 400px;
+    max-height: 400px;
+    display: none;
+  }
+  
+  .melink:hover+.meimg {
+    display: block;
+  }
+  
+  
+  .hidden {
+    display: none;
+  }
+  
+  .wrapper {
+    height: 100vh;
+  }
+  
+  
