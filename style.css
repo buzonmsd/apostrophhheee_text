@@ -62,6 +62,10 @@
     text-align: left;
   }
   
+  .nota{
+    font-family: 'Xanh Mono', monospace;
+    font-size: 0.9vw;
+  }
 
   h4{
     font-family: 'Xanh Mono', monospace;
@@ -79,17 +83,20 @@
   
   .hover {
     pointer-events: none;
-    transform: translate(48px, -2px);
+    display: inline-block;
+    /*transform: translate(-2vw, 2vw);*/
     position: absolute;
   }
   
+  /*
   .pointer {
     transform: translate(26px, -2px);
   }
+*/
 
   .meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
-    max-width: 400px;
-    max-height: 400px;
+    max-width: 50vw;
+    max-height: 50vw;
     display: none;
   }
   
@@ -106,4 +113,4 @@
     height: 100vh;
   }
   
-  
+ 
