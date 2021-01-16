@@ -62,6 +62,18 @@
     text-align: left;
   }
   
+  h3{
+    font-family: 'Xanh Mono', monospace;
+    font-size: 0.9vw;
+    background-color: yellow;
+    position: fixed;
+    padding: 1%;
+    left: 70%;
+    bottom: 3%;
+    right: auto;
+  }
+
+
   .nota{
     font-family: 'Xanh Mono', monospace;
     font-size: 0.9vw;
@@ -93,6 +105,8 @@
     transform: translate(26px, -2px);
   }
 */
+
+  
 
   .meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
     max-width: 50vw;
