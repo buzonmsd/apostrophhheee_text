@@ -69,7 +69,7 @@
     position: fixed;
     padding: 1%;
     left: 70%;
-    bottom: 3%;
+    top: 3%;
     right: auto;
   }
 
@@ -109,6 +109,11 @@
   
 
   .meimg, .litimg, .eyeimg, .handimg, .stoicimg, .typeimg, .beerimg, .blankimg, .blodimg {
+   /*
+    position: fixed;
+    top: 10px;
+    right: 10px;
+   */
     max-width: 50vw;
     max-height: 30vw;
     display: none;
@@ -118,6 +123,9 @@
     display: block;
   }
   
+  .link{
+    color: blue;
+  }
   
   .hidden {
     display: none;
